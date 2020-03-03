@@ -41,7 +41,7 @@
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url('/') }}">{{ __('Volver') }}</a>
+                                <a class="nav-link" href="{{ url('/') }}">{{ __('Inicio') }}</a>
                             </li>
                         @else
                             <li class="nav-item dropdown">
