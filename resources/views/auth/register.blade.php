@@ -78,6 +78,9 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Registrar') }}
                                 </button>
+                                <button type="button" class="btn btn-secondary" onclick="window.location.href = '{{ url('/home') }}';">
+                                   {{ __('Volver') }}
+                                </button>
                             </div>
                         </div>
                     </form>
