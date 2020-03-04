@@ -13,8 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
+                    <a class="dropdown-item" href="{{ route('servicios.create')}}">crear servicio</a>
                 </div>
             </div>
         </div>
